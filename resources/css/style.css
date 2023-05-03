@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Facilita o dimensionamento dos elementos dizendo que a borda do elemenro pertence ao tamanho total deste */
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(img/Paisagem-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    
+    
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+    
+}
+
+header a {
+    text-decoration: none;
+}
+
+.btn:link, .btn:visited {
+    color:  #fff;
+    border: solid;
+    border-radius: 30px;
+    padding: 5px 15px ;
+    margin-right: 10px;
+}
+
+.btn-full {
+    background-color: rgb(224, 89, 39);
+}
+.btn-ghost {
+    color: orange;
+}
